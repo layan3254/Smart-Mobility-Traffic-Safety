@@ -19,7 +19,7 @@ st.title("📊 Smart Mobility & Traffic Safety Dashboard")
 st.markdown("لوحة تحكم ذكية لتحليل مسببات الحوادث المرورية بناءً على بيانات الطريق والطقس")
 
 # 2. قراءة ملف البيانات الجديد الخاص بكِ
-df = pd.read_csv("sample_submission.csv")
+df = pd.read_csv("train_small.csv")
 
 # 3. تصميم الشريط الجانبي (Sidebar) للفلاتر بناءً على أعمدتكِ الفعلية
 st.sidebar.header("🔍 فلاتر التحكم (Filters)")
